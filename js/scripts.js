@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $("#coding-survey").submit(function(event) {
-      event.preventDefault();
+
 
     var question1 = $("select#font-question1").val();
     var question2 = $("select#big-tech").val();
@@ -16,8 +16,22 @@ $(document).ready(function() {
 
   }  if ( question2 === "yes" && question1 === "no" && question3 === "no" && question4 === "no" && question5 === "no") {
 
-    $("PHP").show();
+    $("#PHP").show();
   }
+    if ( question3 === "yes" && question1 === "no" && question2 === "no" && question4 === "no" && question5 === "no") {
+      $("#ruby").show();
+    }
+
+    if ( question4 === "yes" && question1 === "no" && question2 === "no" && question3 === "no" && question5 === "no") {
+      $("#").show("#csharp");
+    }
+
+    if ( question5 === "yes" && question1 === "no" && question2 === "no" && question4 === "no" && question3 === "no") {
+      $("#android").show();
+    }
+
+
+  event.preventDefault();
 
 
 
