@@ -27,3 +27,20 @@ h2 {
 #fonts {
   background: green;
 }
+
+#design {
+  display: none;
+}
+
+#ruby {
+  display: none;
+}
+
+#c-sharp {
+  display: none;
+}
+
+#android {
+  display: none;
+
+}
