@@ -1,3 +1,7 @@
+.card-header, .card-title {
+  text-align: center;
+}
+
 .jumbotron {
   text-align: center;
 }
