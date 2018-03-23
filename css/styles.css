@@ -1,0 +1,17 @@
+.jumbotron {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#frontend {
+  margin-top: 20px;
+  display: none;
+}
+
+#backend{
+  margin-top: 20px;
+  display: none;
+}
