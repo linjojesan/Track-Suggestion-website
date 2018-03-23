@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -5,83 +6,96 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-    <link href=""
     <title></title>
   </head>
   <body>
     <div class="container-fluid">
-    <div class="jumbotron">
-      <h1>Track Suggester Webpage</h1>
+      <div class="jumbotron">
+        <h1>Track Suggester Webpage</h1>
+      </div>
     </div>
-  </div>
-  <br>
-
-      <div class="card">
-        <div class="card-header">
-          <h2 class="card-title">An informative questionnaire for the aspiring programmer</h2>
-
-
+    <br>
+    <div class="card">
+      <div class="card-header">
+        <h2 class="card-title">An informative questionnaire for the aspiring programmer</h2>
         <p>Are you interested in joining a coding bootcamp but do not know what courses or tracks to take. This question can be quite the hurdle for many aspiring web developers.  </p>
-
         <p>This track suggester is designed to alleviate your uncertainty and answer some of those begging questions that you have concerning what programming languages to take before you enroll in a coding bootcamp.
-        </div>
+      </div>
+    </div>
+    <br>
+    <form id="coding-survey">
+      <div class="row">
+        <div class="col-md-6">
+        <div class="form-group">
+        <label for="first-question">
+          <h4>
+          Do you love fonts, are you interested in the tiny differences and nuances in font implementation? Do the words monospace and Sans Serif turn you on?
+          <h4>
+        </label>
+        <select class="form-control" id="font-question1">
+          <option value="1">yes</option>
+          <option value="2">no</option>
+        </select>
       </div>
       <br>
-
-
-      <form class="programming-questions">
-        <div class="form-group" id"font-form">
-          <label for="fontform">Do you love fonts, are you interested in the tiny differences and nuances in font implementation? Do the words monospace and Sans Serif turn you on?"</label>
-          <select class="form-control" id"fonts">
-            <option value="1">yes</option>
-            <option value="2">no</option>
-          </select>
-
-
-
-<!--
-      <form class="programming questions">
-        <div class="form-group">
-      Are you more interested in front end development, i.e., the layout and design of webpages? Frontend developers spend there days designing webpages, and they are responsible for the visual aspect of web development and implementing the design of websites. Front end developers mostly use languages like HTML, CSS, and JavaScript.
+      <div class="form-group">
+      <label for="second-question">
+        <h4>Do you like peering into the inner workings of the machine, do you want to work for a big monolithic tech company? Do you want to work with a big development team?</h4>
+      </label>
+      <select class="form-control" id="big-tech">
+        <option value="1">yes</option>
+        <option value="2">no</option>
+      </select>
+      <br>
+      <div class="form-group">
+      <h4>Are you interested in free coffee, beer, and pingpong? Do you want to work with a small startup and create a brand new application?</h4>
+      <select class="form-control" id"start-up">
+        <option value="1">yes</option>
+        <option value="2">no</option>
+      </select>
       <br>
 
-          <div class="btn-group" id="front" data-toggle="buttons">
+    <button type="button" class="btn btn-success" type="submit">Success</button>
+
+      <!--
+        <form class="programming questions">
+          <div class="form-group">
+        Are you more interested in front end development, i.e., the layout and design of webpages? Frontend developers spend there days designing webpages, and they are responsible for the visual aspect of web development and implementing the design of websites. Front end developers mostly use languages like HTML, CSS, and JavaScript.
+        <br>
+
+            <div class="btn-group" id="front" data-toggle="buttons">
+              <label class="btn btn-default blue">
+                <input type="radio" class="toggle" value="1">Yes
+              </label>
+              <label class="btn btn-default blue">
+                <input type="radio" class="toggle" value="2"> No
+              </label>
+            </div>
+            <br>
+            <br
+
+
+
+        Are you more interested in Back End Development, i.e., this is the code that you can't see, it's what goes on behind the scenes. This type of programming consists of three parts: a server, an application, and a database. Back end developers use languages like PHP, Ruby, and C. You could also be data mining, and writing abstract algorithms.
+
+
+          <div class="btn-group" id="back" data-toggle="buttons">
             <label class="btn btn-default blue">
               <input type="radio" class="toggle" value="1">Yes
             </label>
             <label class="btn btn-default blue">
               <input type="radio" class="toggle" value="2"> No
             </label>
-          </div>
-          <br>
-          <br
+          </div
 
 
+        <div class="card" id="frontend">
+          <h2>The Front End Languages</h2>
+        </div>
 
-      Are you more interested in Back End Development, i.e., this is the code that you can't see, it's what goes on behind the scenes. This type of programming consists of three parts: a server, an application, and a database. Back end developers use languages like PHP, Ruby, and C. You could also be data mining, and writing abstract algorithms.
-
-
-        <div class="btn-group" id="back" data-toggle="buttons">
-          <label class="btn btn-default blue">
-            <input type="radio" class="toggle" value="1">Yes
-          </label>
-          <label class="btn btn-default blue">
-            <input type="radio" class="toggle" value="2"> No
-          </label>
-        </div
-
-
-      <div class="card" id="frontend">
-        <h2>The Front End Languages</h2>
-      </div>
-
-      <div class="card" id="backend">
-        <h2>The Backend Languages</h2>
-      </div> -->
-
-
-
-
+        <div class="card" id="backend">
+          <h2>The Backend Languages</h2>
+        </div> -->
     </form>
   </body>
 </html>
