@@ -35,22 +35,7 @@ $(document).ready(function() {
 
 
 
-//   } else if (question1 === "no" && question2 === "yes" && question3 === "no" && question4 === "no" && question5 === "no") {
-//
-//     $("#PHP").show();
-//
-//   } else if (question1 === "no" && question2 === "" && question3 === "yes" && question4 === "no" && question5 === "no") {
-//
-//     $("#ruby").show();
-//
-// }   else if (question1 === "no" && question2 === "no" && question3 === "no" && question4 === "yes" && question5 === "no") {
-//
-//     $("#c-sharp").show();
-//
-// }   else if (question1 === "no" && question2 === "no" && question3 === "no" && question4 === "no" && question5 === "yes") {
-//     $("#android").show();
-// }
-//
+
 
 
 });
