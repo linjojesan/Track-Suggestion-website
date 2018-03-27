@@ -23,7 +23,7 @@ $(document).ready(function() {
     }
 
     if ( question4 === "yes" && question1 === "no" && question2 === "no" && question3 === "no" && question5 === "no") {
-      $("#").show("#csharp");
+      $("#csharp").show();
     }
 
     if ( question5 === "yes" && question1 === "no" && question2 === "no" && question4 === "no" && question3 === "no") {
